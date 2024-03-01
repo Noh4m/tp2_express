@@ -1,0 +1,45 @@
+#containerTitle{
+    
+}
+#title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+#containerContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    position: relative;
+    width: 165px;
+    font-family: "Inter", sans-serif;
+    margin-left: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.card > img{
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(120,119,126,0.506061799719888);
+    opacity: 0;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.info:hover {
+    opacity: 100%;
+    transition: all 0.3s ease 0s;
+}
