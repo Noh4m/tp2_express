@@ -1,0 +1,23 @@
+{
+  "name": "harry_potter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "personnagesRoutes",
+  "scripts": {
+    "test": "run",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noh4m/tp2_express.git"
+  },
+  "author": "Noham & Ibrahima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noh4m/tp2_express/issues"
+  },
+  "homepage": "https://github.com/Noh4m/tp2_express#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
